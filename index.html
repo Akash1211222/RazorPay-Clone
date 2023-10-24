@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>RazorPay</title>
+
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
     <link rel="stylesheet" href="main.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -230,7 +239,7 @@
             alt=""
             class="absolute right-0 bottom-0 max-w-[650px]" />
         </div>
-        <div class="w-full grid grid-cols-3 gap-4 mt-10">
+        <div class="w-full grid grid-cols-3 gap-4 mt-10 capitalize">
             <!-- box-1 -->
             <div class="w-full min-h-[15rem] relative cursor-pointer">
               <img
@@ -238,20 +247,40 @@
                 alt=""
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" />
               <!-- box-shape -->
+              <svg
+                      viewBox="0 0 349.32501220703125 225"
+                      xmlns="http://www.w3.org/2000/svg"
+                      preserveAspectRatio="none"
+                      class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                      style="stroke-opacity: 0.15"
+                       >
+                <path
+                      d="m 0 6 
+                  a 6 6 0 0 1 6 -6 
+                  h 250.32501220703125 
+                  a 16 16 0 0 1 11 5 
+                  l 77 77 
+                  a 16 16 0 0 1 5 11 
+                  v 126 
+                  a 6 6 0 0 1 -6 6 
+                  h -337.32501220703125 
+                  a 6 6 0 0 1 -6 -6 
+                  z"
+                      fill="#fff"
+                ></path>
+                  </svg>
       
               <!-- box-containt -->
               <div
-                class="z-[100] absolute w-full h-full flex flex-col pl-5 py-6 pr-8">
+                class="z-[100] absolute w-full h-full flex flex-col pl-5 py-6 pr-8 justify-between">
                 <!-- text -->
                 <div>
                   <h3
                     class="font-mullish font-bold text-deepBlueHead leading-[1.2] text-[1.375rem]">
-                    payment link
+                    Payment Links
                   </h3>
                   <p class="font-mullish text-gray mt-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-                    magni atque rerum? Enim vel sunt accusamus temporibus repudiandae
-                    et nobis.
+                    Share payment link via an email, SMS, messenger, chatbot etc. and get paid immediately
                   </p>
                   <!-- hyperlink -->
                   <div class="flex flex-row items-center cursor-pointer group:">
@@ -260,7 +289,9 @@
                       class="font-mullish font-bold text-lightBlue500 hover:text-grayBlue transition-all duration-200"
                       >Know More</a
                     >
-                    <i></i>
+                    <i data-feather="chevron-right"
+                    class="w-5 h-5 text-lightBlue500 
+                    group-hover:text-grayBlue transition-all duration-200"></i>
                   </div>
                 </div>
               </div>
@@ -272,10 +303,32 @@
                 alt=""
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" />
               <!-- box-shape -->
+              <svg
+                      viewBox="0 0 349.32501220703125 225"
+                      xmlns="http://www.w3.org/2000/svg"
+                      preserveAspectRatio="none"
+                      class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                      style="stroke-opacity: 0.15"
+                       >
+                <path
+                      d="m 0 6 
+                  a 6 6 0 0 1 6 -6 
+                  h 250.32501220703125 
+                  a 16 16 0 0 1 11 5 
+                  l 77 77 
+                  a 16 16 0 0 1 5 11 
+                  v 126 
+                  a 6 6 0 0 1 -6 6 
+                  h -337.32501220703125 
+                  a 6 6 0 0 1 -6 -6 
+                  z"
+                      fill="#fff"
+                ></path>
+                  </svg>
       
               <!-- box-containt -->
               <div
-                class="z-[100] absolute w-full h-full flex flex-col pl-5 py-6 pr-8">
+                class="z-[100] absolute w-full h-full flex flex-col justify-normal pl-5 py-6 pr-8 ">
                 <!-- text -->
                 <div>
                   <h3
@@ -306,10 +359,32 @@
                 alt=""
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" />
               <!-- box-shape -->
+              <svg
+                      viewBox="0 0 349.32501220703125 225"
+                      xmlns="http://www.w3.org/2000/svg"
+                      preserveAspectRatio="none"
+                      class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                      style="stroke-opacity: 0.15"
+                       >
+                <path
+                      d="m 0 6 
+                  a 6 6 0 0 1 6 -6 
+                  h 250.32501220703125 
+                  a 16 16 0 0 1 11 5 
+                  l 77 77 
+                  a 16 16 0 0 1 5 11 
+                  v 126 
+                  a 6 6 0 0 1 -6 6 
+                  h -337.32501220703125 
+                  a 6 6 0 0 1 -6 -6 
+                  z"
+                      fill="#fff"
+                ></path>
+                  </svg>
       
               <!-- box-containt -->
               <div
-                class="z-[100] absolute w-full h-full flex flex-col pl-5 py-6 pr-8">
+                class="z-[100] absolute w-full h-full flex flex-col pl-5 py-6 pr-8 ">
                 <!-- text -->
                 <div>
                   <h3
@@ -334,12 +409,34 @@
               </div>
             </div>
             <!-- box-4 -->
-            <div class="w-full min-h-[15rem] relative cursor-pointer">
+            <div class="w-full min-h-[15rem] relative cursor-pointer ">
               <img
                 src="./images/payment-link-icon.svg"
                 alt=""
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" />
               <!-- box-shape -->
+              <svg
+                      viewBox="0 0 349.32501220703125 225"
+                      xmlns="http://www.w3.org/2000/svg"
+                      preserveAspectRatio="none"
+                      class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                      style="stroke-opacity: 0.15"
+                       >
+                <path
+                      d="m 0 6 
+                  a 6 6 0 0 1 6 -6 
+                  h 250.32501220703125 
+                  a 16 16 0 0 1 11 5 
+                  l 77 77 
+                  a 16 16 0 0 1 5 11 
+                  v 126 
+                  a 6 6 0 0 1 -6 6 
+                  h -337.32501220703125 
+                  a 6 6 0 0 1 -6 -6 
+                  z"
+                      fill="#fff"
+                ></path>
+                  </svg>
       
               <!-- box-containt -->
               <div
@@ -374,10 +471,32 @@
                 alt=""
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" />
               <!-- box-shape -->
+              <svg
+                      viewBox="0 0 349.32501220703125 225"
+                      xmlns="http://www.w3.org/2000/svg"
+                      preserveAspectRatio="none"
+                      class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                      style="stroke-opacity: 0.15"
+                       >
+                <path
+                      d="m 0 6 
+                  a 6 6 0 0 1 6 -6 
+                  h 250.32501220703125 
+                  a 16 16 0 0 1 11 5 
+                  l 77 77 
+                  a 16 16 0 0 1 5 11 
+                  v 126 
+                  a 6 6 0 0 1 -6 6 
+                  h -337.32501220703125 
+                  a 6 6 0 0 1 -6 -6 
+                  z"
+                      fill="#fff"
+                ></path>
+                  </svg>
       
               <!-- box-containt -->
               <div
-                class="z-[100] absolute w-full h-full flex flex-col pl-5 py-6 pr-8">
+                class="z-[100] absolute w-full h-full flex flex-col pl-5 py-6 pr-8 ">
                 <!-- text -->
                 <div>
                   <h3
@@ -409,10 +528,32 @@
                 alt=""
                 class="bg-lightBlue absolute right-3 top-3 w-12 h-12 rounded-full z-[8] transition-all duration-200" />
               <!-- box-shape -->
+              <svg
+                      viewBox="0 0 349.32501220703125 225"
+                      xmlns="http://www.w3.org/2000/svg"
+                      preserveAspectRatio="none"
+                      class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] transition-all duration-200"
+                      style="stroke-opacity: 0.15"
+                       >
+                <path
+                      d="m 0 6 
+                  a 6 6 0 0 1 6 -6 
+                  h 250.32501220703125 
+                  a 16 16 0 0 1 11 5 
+                  l 77 77 
+                  a 16 16 0 0 1 5 11 
+                  v 126 
+                  a 6 6 0 0 1 -6 6 
+                  h -337.32501220703125 
+                  a 6 6 0 0 1 -6 -6 
+                  z"
+                      fill="#fff"
+                ></path>
+                  </svg>
       
               <!-- box-containt -->
               <div
-                class="z-[100] absolute w-full h-full flex flex-col pl-5 py-6 pr-8">
+                class="z-[100] absolute w-full h-full flex flex-col pl-5 py-6 pr-8 ">
                 <!-- text -->
                 <div>
                   <h3
@@ -429,9 +570,10 @@
                     <a
                       href="#"
                       class="font-mullish font-bold text-lightBlue500 hover:text-grayBlue transition-all duration-200"
-                      >Know More</a
-                    >
-                    <i></i>
+                      >Know More</a>
+                    <i data-feather="chevron-right"
+                    class="w-5 h-5 text-lightBlue500 
+                    group-hover:text-grayBlue transition-all duration-200"></i>
                   </div>
                 </div>
               </div>
@@ -439,7 +581,16 @@
       </div>
     </section>
 
+    <!-- feature Section-2 -->
+    <section>
+
+    </section>
+
     
     </div>
+
+    <script>
+        feather.replace()
+    </script>
   </body>
 </html>
